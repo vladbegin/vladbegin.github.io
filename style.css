@@ -18,8 +18,7 @@ body {
 }
 
 .img {
-	width: 100%;
-	max-width: 150px;
+	width: 100px;
 	height: auto;
 	object-fit: cover; /* Сохранение пропорций изображения */
 	border-radius: 8px; /* Скругленные углы */
@@ -27,6 +26,12 @@ body {
 
 .item {
 	text-align: center;
+}
+
+.title {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 10px 0;
 }
 
 .btn {

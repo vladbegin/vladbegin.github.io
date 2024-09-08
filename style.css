@@ -8,19 +8,16 @@ body {
 
 .container {
 	max-width: 390px;
-	margin: 0 auto;
 }
 
 .inner {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 200px 200px 200px;
-	gap: 20px;
 }
 
 .img {
-	 width: 150px;
-    	 height: 150px;
+	width: 150px;
 }
 
 .item {
@@ -36,8 +33,8 @@ body {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
+
 	transition: background .2s linear;
-	cursor: pointer;
 }
 
 .btn:hover {
@@ -46,5 +43,4 @@ body {
 
 .usercard {
 	text-align: center;
-	margin-bottom: 20px;
 }
